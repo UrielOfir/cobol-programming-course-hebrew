@@ -24,7 +24,7 @@ toccolor: Blue
 VSCode עם Zowe Explorer
 </h1>
 
-Zowe Explorer הוא תוסף בקוד פתוח עבור VS Code המאפשרת למפתחים ולמנהלי מערכות לקיים אינטראקציה עם מחשבי mainframe של z/OS.
+&#x200f;Zowe Explorer הוא תוסף בקוד פתוח עבור VS Code המאפשרת למפתחים ולמנהלי מערכות לקיים אינטראקציה עם מחשבי mainframe של z/OS.
 
 - **מבוא ל-Zowe Explorer**
 - **שימוש ב-Zowe Explorer**
