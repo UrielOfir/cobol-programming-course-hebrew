@@ -1,30 +1,30 @@
-# COBOL Programming Course #1 - Getting Started
+# קורס תכנות COBOL #1 - תחילת עבודה
 
-This project is a set of training materials and labs for a "Getting Started" level course on COBOL. Free and publicly available client tooling is used to interact with the mainframe environment allowing participants to easily leverage these technologies after the course.
+פרויקט זה הוא סט של חומרי הדרכה ומעבדות לקורס ברמת "תחילת עבודה" על COBOL. נעשה שימוש בכלי צד-לקוח חינמיים וזמינים לציבור כדי לתקשר עם סביבת המיינפריים, מה שמאפשר למשתתפים למנף בקלות טכנולוגיות אלו לאחר הקורס.
 
-## How to get started
+## איך להתחיל
 
-To begin, select a recent [release](https://github.com/openmainframeproject/cobol-programming-course/releases) of the course. Under a given release, you should see two assets.
+כדי להתחיל, בחרו [גרסה](https://github.com/openmainframeproject/cobol-programming-course/releases) עדכנית של הקורס. תחת גרסה נתונה, אתם אמורים לראות שני נכסים.
 
-- The COBOL Programming Course #1 - Getting Started PDF asset contains the course instructions.
-- The Source code asset contains everything that was in the project when the release was published.
+- הנכס PDF של קורס תכנות COBOL #1 - תחילת עבודה מכיל את הוראות הקורס.
+- נכס קוד המקור מכיל את כל מה שהיה בפרויקט בעת פרסום הגרסה.
 
-To complete the course, you will also need to do one of the following: 
-- Select a [provider](#providers) below and follow their registration process. Once complete, you should be given system details to use in the course.
-- Upload the source code for the course (located in the Labs folder) to your mainframe environment.
+להשלמת הקורס, תצטרכו גם לבצע אחת מהפעולות הבאות:
+- בחרו [ספק](#ספקים) למטה ועקבו אחר תהליך ההרשמה שלהם. לאחר ההשלמה, אתם אמורים לקבל פרטי מערכת לשימוש בקורס.
+- העלו את קוד המקור של הקורס (הנמצא בתיקיית המעבדות) לסביבת המיינפריים שלכם.
 
-## Providers
+## ספקים
 
-These materials are being used by other organizations to provide COBOL training to the community. Neither this project nor Open Mainframe Project reviews, maintains, or endorses any one of these particular providers. If you are using these materials in your training materials, feel free [to edit and issue a pull request](https://github.com/openmainframeproject/cobol-programming-course/edit/governance-docs/README.md) to have it included.
+חומרים אלה משמשים ארגונים אחרים כדי לספק הדרכת COBOL לקהילה. פרויקט זה וגם פרויקט Open Mainframe אינם בודקים, מתחזקים או תומכים באף אחד מהספקים המסוימים הללו. אם אתם משתמשים בחומרים אלה בחומרי ההדרכה שלכם, אתם מוזמנים [לערוך ולהגיש בקשת משיכה](https://github.com/openmainframeproject/cobol-programming-course/edit/governance-docs/README.md) כדי לכלול אותה.
 
-- IBM has provided a [free environment for completing this lab](https://ibm.biz/cobollabs).
+- IBM סיפקה [סביבה חינמית להשלמת מעבדה זו](https://ibm.biz/cobollabs).
 
-## Build
+## בנייה
 
-The PDF is built using the following [pandoc](https://pandoc.org/) command. Note: pdflatex is required. [MiKTeX](https://miktex.org/) can be installed to accommodate this. 
+ה-PDF נבנה באמצעות הפקודה הבאה של [pandoc](https://pandoc.org/). שימו לב: נדרש pdflatex. ניתן להתקין את [MiKTeX](https://miktex.org/) כדי להתאים זאת.
 
 ```
 pandoc "COBOL Programming Course #1 - Getting Started.md" -o "COBOL Programming Course #1 - Getting Started.pdf" --number-sections --toc -B Front_Matter.tex --listings
 ```
 
-`Front_Matter.tex` contains the content before the table of contents. `COBOL Programming Course #1 - Getting Started.md` contains the body. The command combines the two, generates the section numbers and table of contents for the body, and outputs `COBOL Programming Course #1 - Getting Started.pdf`
+`Front_Matter.tex` מכיל את התוכן שלפני תוכן העניינים. `COBOL Programming Course #1 - Getting Started.md` מכיל את הגוף. הפקודה משלבת את השניים, יוצרת את מספרי הסעיפים ותוכן העניינים עבור הגוף, ומוציאה את `COBOL Programming Course #1 - Getting Started.pdf`

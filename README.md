@@ -1,47 +1,47 @@
-[![Logo](https://raw.githubusercontent.com/openmainframeproject/artwork/main/projects/cobol-pc/horizontal/color/cobol-pc-horizontal-color.png)](https://www.openmainframeproject.org/projects/cobolprogrammingcourse)
+[![לוגו](https://raw.githubusercontent.com/openmainframeproject/artwork/main/projects/cobol-pc/horizontal/color/cobol-pc-horizontal-color.png)](https://www.openmainframeproject.org/projects/cobolprogrammingcourse)
 
-[![License](https://img.shields.io/github/license/OpenMainframeProject/cobol-programming-course)](LICENSE)
-[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/4770/badge)](https://bestpractices.coreinfrastructure.org/projects/4770)
+[![רישיון](https://img.shields.io/github/license/OpenMainframeProject/cobol-programming-course)](LICENSE)
+[![שיטות עבודה מומלצות של CII](https://bestpractices.coreinfrastructure.org/projects/4770/badge)](https://bestpractices.coreinfrastructure.org/projects/4770)
 
-# COBOL Programming Course
+# קורס תכנות COBOL
 
-This project is a set of training materials and labs for COBOL on z/OS. The following books are available within this repository. To get started, follow the steps in their respective READMEs.
+פרויקט זה הוא סט של חומרי הדרכה ומעבדות עבור COBOL על z/OS. הספרים הבאים זמינים במאגר זה. כדי להתחיל, עקבו אחר השלבים בקובצי ה-README המתאימים להם.
 
-- Released
-    - [COBOL Programming Course #1 - Getting Started](COBOL%20Programming%20Course%20%231%20-%20Getting%20Started/README.md)
-    - [COBOL Programming Course #2 - Learning COBOL](COBOL%20Programming%20Course%20%232%20-%20Learning%20COBOL/README.md)
-    - [COBOL Programming Course #3 - Advanced Topics](COBOL%20Programming%20Course%20%233%20-%20Advanced%20Topics/README.md)
-    - [COBOL Programming Course #4 - Testing](COBOL%20Programming%20Course%20%234%20-%20Testing/README.md)
+- שוחררו
+    - [קורס תכנות COBOL #1 - תחילת עבודה](COBOL%20Programming%20Course%20%231%20-%20Getting%20Started/README.md)
+    - [קורס תכנות COBOL #2 - לימוד COBOL](COBOL%20Programming%20Course%20%232%20-%20Learning%20COBOL/README.md)
+    - [קורס תכנות COBOL #3 - נושאים מתקדמים](COBOL%20Programming%20Course%20%233%20-%20Advanced%20Topics/README.md)
+    - [קורס תכנות COBOL #4 - בדיקות](COBOL%20Programming%20Course%20%234%20-%20Testing/README.md)
 
-An interactive environment for completing the course is available at [ibm.biz/cobollabs](https://ibm.biz/cobollabs). If you are a learner looking to take the course, please navigate to this link and select the Open Mainframe Project COBOL Programming Course.
+סביבה אינטראקטיבית להשלמת הקורס זמינה בכתובת [ibm.biz/cobollabs](https://ibm.biz/cobollabs). אם אתם לומדים המעוניינים לעבור את הקורס, אנא נווטו לקישור זה ובחרו בקורס התכנות COBOL של פרויקט Open Mainframe.
 
-## Discussion
+## דיון
 
-You can connect with the community in a variety of ways...
+תוכלו להתחבר לקהילה במגוון דרכים...
 
-- [#cobol-programming-course channel on Open Mainframe Project Slack](https://slack.openmainframeproject.org)
-- ['COBOL technical questions' category on Open Mainframe Project Community Forums](https://community.openmainframeproject.org/c/cobol-technical-questions/16)
-- [COBOL Programming Course Discussion Mailing list](https://lists.openmainframeproject.org/g/cobol-course-discussion)
+- [ערוץ #cobol-programming-course ב-Slack של פרויקט Open Mainframe](https://slack.openmainframeproject.org)
+- [קטגוריית 'שאלות טכניות על COBOL' בפורומי הקהילה של פרויקט Open Mainframe](https://community.openmainframeproject.org/c/cobol-technical-questions/16)
+- [רשימת תפוצה לדיונים על קורס התכנות COBOL](https://lists.openmainframeproject.org/g/cobol-course-discussion)
 
-## Contributing
+## תרומה
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+בקשות משיכה יתקבלו בברכה. עבור שינויים גדולים, אנא פתחו תחילה נושא לדיון על מה שברצונכם לשנות.
 
-All contributions must align with the [Open Mainframe Project contribution guidelines](https://github.com/openmainframeproject/tac/blob/master/process/contribution_guidelines.md), including having a DCO signoff on all commits.
+כל התרומות חייבות להתאים להנחיות התרומה של [פרויקט Open Mainframe](https://github.com/openmainframeproject/tac/blob/master/process/contribution_guidelines.md), כולל חתימת DCO על כל הקומיטים.
 
-For full contribution requirements, please review our [guidelines](CONTRIBUTING.md).
+לדרישות התרומה המלאות, אנא עיינו ב[הנחיות](CONTRIBUTING.md) שלנו.
 
-## Governance
+## ממשל
 
-This project is openly governed as defined in [GOVERNANCE.md](GOVERNANCE.md).
+פרויקט זה מנוהל באופן פתוח כפי שמוגדר ב-[GOVERNANCE.md](GOVERNANCE.md).
 
-## Credits
+## קרדיטים
 
-The course materials were made available through a joint collaboration between IBM, its clients, and American River College and proposed as a new project by IBM.
+חומרי הקורס הועמדו לרשות הציבור באמצעות שיתוף פעולה משותף בין IBM, לקוחותיה ומכללת אמריקן ריבר והוצעו כפרויקט חדש על ידי IBM.
 
-## Video Course Links
+## קישורים לקורסי וידאו
 
-- [IBM Digital Learning Platform](https://learn.ibm.com/course/view.php?id=7552)
-- [Coursera](https://www.coursera.org/learn/cobol-programming-vscode?)
-- [Pluralsight](https://www.pluralsight.com/courses/learning-cobol-programming-vscode)
-- [YouTube](https://www.youtube.com/watch?v=RdMAEdGvtLA)
+- [פלטפורמת הלמידה הדיגיטלית של IBM](https://learn.ibm.com/course/view.php?id=7552)
+- [קורסרה](https://www.coursera.org/learn/cobol-programming-vscode?)
+- [פלורלסייט](https://www.pluralsight.com/courses/learning-cobol-programming-vscode)
+- [יוטיוב](https://www.youtube.com/watch?v=RdMAEdGvtLA)
