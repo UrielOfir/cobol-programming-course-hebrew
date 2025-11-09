@@ -20,8 +20,9 @@ toccolor: Blue
 ---
 \newpage
 
-
-#&#x200f; VSCode עם Zowe Explorer
+<h1 dir="rtl" align="right">
+VSCode עם Zowe Explorer
+</h1>
 
 Zowe Explorer הוא תוסף בקוד פתוח עבור VS Code המאפשרת למפתחים ולמנהלי מערכות לקיים אינטראקציה עם מחשבי mainframe של z/OS.
 
