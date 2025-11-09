@@ -21,7 +21,7 @@ toccolor: Blue
 \newpage
 
 
-&#x200f; # VSCode עם Zowe Explorer
+&#x200f;# VSCode עם Zowe Explorer
 
 Zowe Explorer הוא תוסף בקוד פתוח עבור VS Code המאפשרת למפתחים ולמנהלי מערכות לקיים אינטראקציה עם מחשבי mainframe של z/OS.
 
