@@ -5,7 +5,7 @@
 
 # קורס תכנות COBOL
 
-פרויקט זה הוא סט של חומרי הדרכה ומעבדות עבור COBOL על z/OS. הספרים הבאים זמינים במאגר זה. כדי להתחיל, עקבו אחר השלבים בקובצי ה-README המתאימים להם.
+פרויקט זה הוא מערך של חומרי הדרכה ומעבדות תרגול עבור שפת התכנות COBOL על z/OS. הספרים הבאים זמינים במאגר זה. כדי להתחיל, עקבו אחר השלבים בקובצי ה-README המתאימים להם.
 
 - שוחררו
     - [קורס תכנות COBOL #1 - תחילת עבודה](COBOL%20Programming%20Course%20%231%20-%20Getting%20Started/README.md)
@@ -13,7 +13,7 @@
     - [קורס תכנות COBOL #3 - נושאים מתקדמים](COBOL%20Programming%20Course%20%233%20-%20Advanced%20Topics/README.md)
     - [קורס תכנות COBOL #4 - בדיקות](COBOL%20Programming%20Course%20%234%20-%20Testing/README.md)
 
-סביבה אינטראקטיבית להשלמת הקורס זמינה בכתובת [ibm.biz/cobollabs](https://ibm.biz/cobollabs). אם אתם לומדים המעוניינים לעבור את הקורס, אנא נווטו לקישור זה ובחרו בקורס התכנות COBOL של פרויקט Open Mainframe.
+סביבה אינטראקטיבית להשלמת הקורס זמינה בכתובת [ibm.biz/cobollabs](https://ibm.biz/cobollabs). אם אתם לומדים המעוניינים לעבור את הקורס, אנא נווטו לקישור זה ובחרו בקורס תכנות COBOL של פרויקט Open Mainframe.
 
 ## דיון
 
@@ -23,21 +23,21 @@
 - [קטגוריית 'שאלות טכניות על COBOL' בפורומי הקהילה של פרויקט Open Mainframe](https://community.openmainframeproject.org/c/cobol-technical-questions/16)
 - [רשימת תפוצה לדיונים על קורס התכנות COBOL](https://lists.openmainframeproject.org/g/cobol-course-discussion)
 
-## תרומה
+## תרומת קוד לפרוייקט
 
-בקשות משיכה יתקבלו בברכה. עבור שינויים גדולים, אנא פתחו תחילה נושא לדיון על מה שברצונכם לשנות.
+Pull requests יתקבלו בברכה. עבור שינויים גדולים, אנא פתחו תחילה נושא לדיון על מה שברצונכם לשנות.
 
-כל התרומות חייבות להתאים להנחיות התרומה של [פרויקט Open Mainframe](https://github.com/openmainframeproject/tac/blob/master/process/contribution_guidelines.md), כולל חתימת DCO על כל הקומיטים.
+כל התרומות חייבות להתאים להנחיות התרומה של [פרויקט Open Mainframe](https://github.com/openmainframeproject/tac/blob/master/process/contribution_guidelines.md), כולל חתימת DCO על כל הקומיטים (עבור הסדרת זכויות יוצרים).
 
-לדרישות התרומה המלאות, אנא עיינו ב[הנחיות](CONTRIBUTING.md) שלנו.
+לדרישות המלאות עבור תרומת קוד לפרוייקט, אנא עיינו ב[הנחיות](CONTRIBUTING.md) שלנו.
 
-## ממשל
+## פיקוח
 
-פרויקט זה מנוהל באופן פתוח כפי שמוגדר ב-[GOVERNANCE.md](GOVERNANCE.md).
+פרויקט זה מנוהל ומפוקח באופן פתוח כפי שמוגדר ב-[GOVERNANCE.md](GOVERNANCE.md).
 
 ## קרדיטים
 
-חומרי הקורס הועמדו לרשות הציבור באמצעות שיתוף פעולה משותף בין IBM, לקוחותיה ומכללת אמריקן ריבר והוצעו כפרויקט חדש על ידי IBM.
+חומרי הקורס הועמדו לרשות הציבור באמצעות שיתוף פעולה משותף בין IBM, לקוחותיה ומכללת American River והוצעו כפרויקט חדש על ידי IBM.
 
 ## קישורים לקורסי וידאו
 
