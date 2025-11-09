@@ -20,10 +20,8 @@ toccolor: Blue
 ---
 \newpage
 
-<div dir="rtl">
 
-
-# VSCode עם Zowe Explorer
+&#x200f; # VSCode עם Zowe Explorer
 
 Zowe Explorer הוא תוסף בקוד פתוח עבור VS Code המאפשרת למפתחים ולמנהלי מערכות לקיים אינטראקציה עם מחשבי mainframe של z/OS.
 
@@ -822,5 +820,3 @@ zowe plugins install cics-for-zowe-cli.tgz zos-ftp-for-zowe-cli.tgz mq-for-zowe-
 ## סיכום
 בפרק זה, עברנו על תהליך התקנת תוכנות הקדם, Node.js ו-npm, וכן Zowe CLI ותוספים שונים.
 ````
-
-</div>
