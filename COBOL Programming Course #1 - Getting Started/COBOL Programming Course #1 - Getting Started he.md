@@ -105,7 +105,7 @@ toccolor: Blue
 
 ![](Images/code4z/code4z-img9.png)
 
-4. תוכל לאתחל את קובץ התצורה בספריית הבית של Zowe או בספריית העבודה הנוכחית.
+4. תוכל לאתחל את קובץ הקונפיגורציה בספריית הבית של Zowe או בספריית העבודה הנוכחית.
 
 ![](Images/code4z/code4z-img10.png)
 
@@ -642,7 +642,7 @@ Zowe היא מסגרת חדשה, והראשונה בקוד פתוח עבור z/O
 
 *איור 3. התקנת Zowe Explorer ב-VSCode*
 
-לקהילת Zowe יש מספר סרטונים מקוונים המדריכים את השלבים הנדרשים להתקנה, תצורה ותפעול של Zowe Explorer, ראה [Zowe Explorer VSC Extension (part 1)](https://www.youtube.com/watch?v=G_WCsFZIWt4&t=0m38s).
+לקהילת Zowe יש מספר סרטונים מקוונים המדריכים את השלבים הנדרשים להתקנה, קונפיגורציה ותפעול של Zowe Explorer, ראה [Zowe Explorer VSC Extension (part 1)](https://www.youtube.com/watch?v=G_WCsFZIWt4&t=0m38s).
 
 ### IBM Z Open Editor
 
@@ -807,7 +807,7 @@ zowe plugins install @broadcom/endevor-for-zowe-cli@zowe-v3-lts
 ```
 
 ### התקנה מחבילה מצורפת
-נווט אל [הורדות Zowe.org](https://www.zowe.org/#download) ולחץ על כפתור CLI Plugins כדי להוריד את החבילה הכוללת את כל תוספי Zowe CLI עבור ארגון Zowe. לאחר קבלת ה-EULA עבור Zowe, חבילה בשם `zowe-cli-plugins-v.r.m.zip` תורד למחשב שלך. פתח את תוכן `zowe-cli-plugins-v.r.m.zip` למיקום מועדף במחשב שלך. תוכל לבחור אילו תוספים ברצונך להתקין. תוסף IBM Db2 דורש [תצורה נוספת](https://docs.zowe.org/stable/user-guide/cli-db2plugin.html#installing-from-a-local-package) בעת התקנה מחבילה מקומית. כדי להתקין את כל התוספים תוכל להנפיק:
+נווט אל [הורדות Zowe.org](https://www.zowe.org/#download) ולחץ על כפתור CLI Plugins כדי להוריד את החבילה הכוללת את כל תוספי Zowe CLI עבור ארגון Zowe. לאחר קבלת ה-EULA עבור Zowe, חבילה בשם `zowe-cli-plugins-v.r.m.zip` תורד למחשב שלך. פתח את תוכן `zowe-cli-plugins-v.r.m.zip` למיקום מועדף במחשב שלך. תוכל לבחור אילו תוספים ברצונך להתקין. תוסף IBM Db2 דורש [קונפיגורציה נוספת](https://docs.zowe.org/stable/user-guide/cli-db2plugin.html#installing-from-a-local-package) בעת התקנה מחבילה מקומית. כדי להתקין את כל התוספים תוכל להנפיק:
 
 ```
 zowe plugins install cics-for-zowe-cli.tgz zos-ftp-for-zowe-cli.tgz mq-for-zowe-cli.tgz db2-for-zowe-cli.tgz
