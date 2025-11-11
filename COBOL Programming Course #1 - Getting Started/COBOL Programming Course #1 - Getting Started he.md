@@ -20,9 +20,7 @@ toccolor: Blue
 ---
 \newpage
 
-<h1 dir="rtl" align="right">
-VSCode עם Zowe Explorer
-</h1>
+# תוסף Zowe Explorer עבור VSCode
 
 &#x200f;Zowe Explorer הוא תוסף בקוד פתוח עבור VS Code המאפשרת למפתחים ולמנהלי מערכות לקיים אינטראקציה עם מחשבי mainframe של z/OS.
 
@@ -47,11 +45,11 @@ VSCode עם Zowe Explorer
 
 ## שימוש ב-Zowe Explorer
 
-Zowe Explorer מאפשר לך לעבוד עם Data Sets, קבצי Unix System Service (USS) ועבודות (jobs).
+&#x200f;Zowe Explorer מאפשר לך לעבוד עם Data Sets, קבצי Unix System Service (USS) ועבודות (jobs).
 
-Zowe Explorer מציע את הפונקציות הבאות:
+&#x200f;Zowe Explorer מציע את הפונקציות הבאות:
 
-Data Sets
+&#x200f;Data Sets
 
 * חיפוש Data Sets התואמים למסננים רצויים והצגת תוכנם.
 * הורדה, עריכה והעלאה של קבצי PDS (members) קיימים.
@@ -69,7 +67,7 @@ Data Sets
 * אינטראקציה עם קבצי USS ממספר מערכות בו-זמנית.
 * שינוי שם של קבצי USS.
 
-Jobs
+&#x200f;Jobs
 
 * הצגת מספר Jobs בו-זמנית.
 * הורדת תוכן spool.
@@ -114,7 +112,7 @@ Jobs
 
 ### עריכת פרופילים
 
-Zowe Explorer v3.0 מאפשר למשתמשים לערוך את הפרופילים שלהם, מה שמאפשר להם לעדכן את פרטי הפרופיל הקיימים שלהם ולהמשיך להשתמש ב-Zowe Explorer.
+&#x200f;Zowe Explorer v3.0 מאפשר למשתמשים לערוך את הפרופילים שלהם, מה שמאפשר להם לעדכן את פרטי הפרופיל הקיימים שלהם ולהמשיך להשתמש ב-Zowe Explorer.
 
 בצע את השלבים הבאים:
 
