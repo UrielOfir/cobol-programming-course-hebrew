@@ -722,10 +722,10 @@ V22.12.0
 כדי לוודא שהתקנת את גרסת ה-npm הנכונה, תוכל להנפיק באופן דומה `npm --version` ולראות אם היא תואמת לגרסת ה-Node.js הנכונה בכתובת [`https://nodejs.org/en/about/previous-releases`](https://nodejs.org/en/about/previous-releases).
 
 ## התקנת Zowe CLI
-ישנן שתי שיטות מומלצות להתקנת Zowe CLI. אם יש לך גישה למרשם ה-npm הציבורי מתחנת העבודה שלך, אנו ממליצים להשתמש בשיטת התקנה זו מכיוון שמשיכת עדכונים היא חלקה. אם אין לך גישה למרשם זה, אנו ממליצים להוריד את החבילה מ-zowe.org ולהתקין אותה מהחבילה המצורפת.
+ישנן שתי שיטות מומלצות להתקנת Zowe CLI. אם יש לך גישה לספריית ה-npm הציבורית מהמחשב שלך, אנו ממליצים להשתמש בשיטת התקנה זו מכיוון שכך משיכת העדכונים היא חלקה. אם אין לך גישה לספרייה זו, אנו ממליצים להוריד את החבילה מ-zowe.org ולהתקין אותה מהחבילה המצורפת.
 
 ### התקנה ממרשם npm ציבורי
-הנפק את הפקודה הבאה במסוף שלך (למשל, שורת פקודה או אם אתה משתמש ב-VS Code, Terminal -> New Terminal):
+בצע את הפקודה הבאה בטרמינל שלך (למשל, שורת פקודה או אם אתה משתמש ב-VS Code, Terminal -> New Terminal):
 
 ```
 npm install -g @zowe/cli@zowe-v3-lts
@@ -739,7 +739,7 @@ npm install -g @zowe/cli@zowe-v3-lts
 אם אתה מריץ Linux, אנא הפעל את הפקודה הבאה עבור הפצת ה-Linux שלך:
 
 - Debian/Ubuntu: `sudo apt-get install libsecret-1-dev`
-- מבוסס Red Hat: `sudo yum install libsecret-devel`
+- Red Hat: `sudo yum install libsecret-devel`
 - Arch Linux: `sudo pacman -S libsecret`
 
 פרופילי משתמש, המכילים מידע חיבור לאינטראקציה עם שירותי z/OS שונים, שנוצרו לאחר התקנת התוסף יאחסנו אוטומטית את האישורים שלך באופן מאובטח.
@@ -750,7 +750,7 @@ npm install -g @zowe/cli@zowe-v3-lts
 zowe scs update
 ```
 
-### התקנה מחבילה מצורפת
+### התקנה מחבילה שהורדת מהאתר
 נווט אל [הורדות Zowe.org](https://www.zowe.org/#download) ולחץ על כפתור CLI Core כדי להוריד את חבילת הליבה הכוללת את Zowe CLI ואת תוסף Secure Credential Store. לאחר קבלת ה-EULA עבור Zowe, חבילה בשם `zowe-cli-package-v.r.m.zip` תורד למחשב שלך. פתח את תוכן `zowe-cli-package-v.r.m.zip` למיקום מועדף במחשב שלך.
 
 פתח את המסוף שלך (למשל, שורת פקודה או אם אתה משתמש ב-VS Code, Terminal -> New Terminal), שנה את ספריית העבודה שלך למקום שבו פתחת את התוכן, והנפק את הפקודה הבאה:
@@ -767,7 +767,7 @@ npm install -g zowe-cli.tgz
 אם אתה מריץ Linux, אנא הפעל את הפקודה הבאה עבור הפצת ה-Linux שלך:
 
 - Debian/Ubuntu: `sudo apt-get install libsecret-1-dev`
-- מבוסס Red Hat: `sudo yum install libsecret-devel`
+- Red Hat: `sudo yum install libsecret-devel`
 - Arch Linux: `sudo pacman -S libsecret`
 
 פרופילי משתמש, המכילים מידע חיבור לאינטראקציה עם שירותי z/OS שונים, שנוצרו לאחר התקנת התוסף יאחסנו אוטומטית את האישורים שלך באופן מאובטח.
@@ -779,7 +779,7 @@ zowe scs update
 ```
 
 ## התקנת תוספי Zowe CLI
-Zowe CLI היא טכנולוגיה ניתנת להרחבה שניתן לשפר על ידי התקנת תוספים. Zowe מציעה מספר [תוספים](https://docs.zowe.org/stable/user-guide/cli-extending.html). בזמן כתיבת שורות אלה, אלה כוללים תוספים עבור [CICS](https://www.npmjs.com/package/@zowe/cics-for-zowe-cli), [Db2](https://www.npmjs.com/package/@zowe/db2-for-zowe-cli), [FTP](https://www.npmjs.com/package/@zowe/zos-ftp-for-zowe-cli), ו-[MQ](https://www.npmjs.com/package/@zowe/mq-for-zowe-cli). ישנם גם תוספי ספקים רבים, שרבים מהם זמינים ב[מרשם הציבורי](https://www.npmjs.com/search?q=zowe-cli). בזמן כתיבת שורות אלה, אלה כוללים תוספים עבור [CA Endevor](https://www.npmjs.com/package/@broadcom/endevor-for-zowe-cli), [CA Endevor Bridge for Git](https://www.npmjs.com/package/@broadcom/endevor-bridge-for-git-for-zowe-cli), [CA File Master Plus](https://www.npmjs.com/package/@broadcom/file-master-plus-for-zowe-cli), [CA OPS/MVS](https://www.npmjs.com/package/@broadcom/ops-for-zowe-cli), [CA View](https://www.npmjs.com/package/@broadcom/caview-for-zowe-cli), [IBM CICS Bundle Generation and Deployment](https://www.npmjs.com/package/zowe-cli-cics-deploy-plugin), ו-[IBM z/OS Connect EE](https://www.npmjs.com/package/@zosconnect/zosconnect-zowe-cli).
+תוכנת Zowe CLI היא טכנולוגיה ניתנת להרחבה שניתן לשפר על ידי התקנת תוספים. Zowe מציעה מספר [תוספים](https://docs.zowe.org/stable/user-guide/cli-extending.html). בזמן כתיבת שורות אלה, אלה כוללים תוספים עבור [CICS](https://www.npmjs.com/package/@zowe/cics-for-zowe-cli), [Db2](https://www.npmjs.com/package/@zowe/db2-for-zowe-cli), [FTP](https://www.npmjs.com/package/@zowe/zos-ftp-for-zowe-cli), ו-[MQ](https://www.npmjs.com/package/@zowe/mq-for-zowe-cli). ישנם גם תוספי ספקים רבים, שרבים מהם זמינים ב[ספריה הציבורת של npmי](https://www.npmjs.com/search?q=zowe-cli). בזמן כתיבת שורות אלה, אלה כוללים תוספים עבור [CA Endevor](https://www.npmjs.com/package/@broadcom/endevor-for-zowe-cli), [CA Endevor Bridge for Git](https://www.npmjs.com/package/@broadcom/endevor-bridge-for-git-for-zowe-cli), [CA File Master Plus](https://www.npmjs.com/package/@broadcom/file-master-plus-for-zowe-cli), [CA OPS/MVS](https://www.npmjs.com/package/@broadcom/ops-for-zowe-cli), [CA View](https://www.npmjs.com/package/@broadcom/caview-for-zowe-cli), [IBM CICS Bundle Generation and Deployment](https://www.npmjs.com/package/zowe-cli-cics-deploy-plugin), ו-[IBM z/OS Connect EE](https://www.npmjs.com/package/@zosconnect/zosconnect-zowe-cli).
 
 ### התקנה ממרשם npm ציבורי
 כדי להתקין תוסף Zowe CLI מהמרשם, פשוט אתר את התוסף שברצונך להתקין, למשל `@zowe/cics-for-zowe-cli`, מצא את תג ההפצה עבור ההפצה שברצונך להתקין, למשל `zowe-v3-lts`, והנפק את הפקודה הבאה:
@@ -800,13 +800,13 @@ zowe plugins install @zowe/cics-for-zowe-cli@zowe-v3-lts
 zowe plugins install @zowe/cics-for-zowe-cli@zowe-v3-lts @zowe/mq-for-zowe-cli@zowe-v3-lts @zowe/zos-ftp-for-zowe-cli@zowe-v3-lts @zowe/db2-for-zowe-cli@zowe-v3-lts
 ```
 
-תוספי ספקים במרשם מותקנים באותו אופן. לדוגמה, כדי להתקין את תוסף CA Endevor, תנפיק
+תוספי ספקים מספריית npm מותקנים באותו אופן. לדוגמה, כדי להתקין את תוסף CA Endevor, תבצע את הפקודה
 
 ```
 zowe plugins install @broadcom/endevor-for-zowe-cli@zowe-v3-lts
 ```
 
-### התקנה מחבילה מצורפת
+### התקנה מחבילה שהורדת מהאתר
 נווט אל [הורדות Zowe.org](https://www.zowe.org/#download) ולחץ על כפתור CLI Plugins כדי להוריד את החבילה הכוללת את כל תוספי Zowe CLI עבור ארגון Zowe. לאחר קבלת ה-EULA עבור Zowe, חבילה בשם `zowe-cli-plugins-v.r.m.zip` תורד למחשב שלך. פתח את תוכן `zowe-cli-plugins-v.r.m.zip` למיקום מועדף במחשב שלך. תוכל לבחור אילו תוספים ברצונך להתקין. תוסף IBM Db2 דורש [קונפיגורציה נוספת](https://docs.zowe.org/stable/user-guide/cli-db2plugin.html#installing-from-a-local-package) בעת התקנה מחבילה מקומית. כדי להתקין את כל התוספים תוכל להנפיק:
 
 ```

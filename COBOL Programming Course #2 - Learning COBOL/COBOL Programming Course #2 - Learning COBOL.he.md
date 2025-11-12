@@ -342,11 +342,11 @@ PROCEDURE DIVISION הוא המקום שבו העבודה נעשית — Statemen
 - What’s New in Enterprise COBOL for z/OS V6.4:
   [https://www.ibm.com/docs/en/cobol-zos/6.4?topic=wn-what-is-new-in-enterprise-cobol-zos-64-cobol-64-ptfs-installed](https://www.ibm.com/docs/en/cobol-zos/6.4?topic=wn-what-is-new-in-enterprise-cobol-zos-64-cobol-64-ptfs-installed)
 
-## מעבדה
+## מעבדת תרגול
 
 במעבדה זו תתחבר למערכת IBM Z, תצפה בתוכנית COBOL פשוטה ב-VS Code, תגיש JCL לקימפול והרצה ותצפה בפלט. יש להתייחס למדור "התקנת VS Code והרחבות" במידה ולא הוגדר ה-IDE שלך. ניתן להשתמש ב-IBM Z Open Editor + Zowe Explorer, או ב-Code4z.
 
-1. נדרש התקנת VS Code עם אחת החבילות: IBM Z Open Editor ו-Zowe Explorer, או Code4z extension pack.
+1. נדרשת התקנת VS Code עם אחת החבילות: IBM Z Open Editor ו-Zowe Explorer, או Code4z extension pack.
 
    לחץ על סמל **Extensions**. אם התקנת IBM Z Open Editor ו-Zowe Explorer, הרשימה תכיל:
 
