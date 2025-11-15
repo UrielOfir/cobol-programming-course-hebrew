@@ -3,8 +3,10 @@
 פרויקט זה הוא סט של חומרי הדרכה ומעבדות תרגול לקורס ברמת "תחילת עבודה" על COBOL. נעשה שימוש בכלי צד-לקוח חינמיים וזמינים לציבור כדי לתקשר עם סביבת המיינפריים, מה שמאפשר למשתתפים למנף בקלות טכנולוגיות אלו לאחר הקורס.
 
 ## איך להתחיל
+אתם מוזמנים לקרוא ולתרגל את [הפרק הראשון של הקורס](https://github.com/UrielOfir/cobol-programming-course-hebrew/blob/master/COBOL%20Programming%20Course%20%231%20-%20Getting%20Started/COBOL%20Programming%20Course%20%231%20-%20Getting%20Started%20he.md)
 
-כדי להתחיל, ניתן להוריד [גרסה באנגלית](https://github.com/openmainframeproject/cobol-programming-course/releases) עדכנית של הקורס. תחת גרסה נתונה, אתם אמורים לראות שני קבצים.
+
+בנוסף, ניתן להוריד [גרסה באנגלית](https://github.com/openmainframeproject/cobol-programming-course/releases) עדכנית של הקורס. תחת גרסה נתונה, אתם אמורים לראות שני קבצים.
 
 - קובץ PDF של קורס תכנות COBOL #1 - תחילת עבודה מכיל את הוראות הקורס.
 - קובץ קוד המקור מכיל את כל מה שהיה בפרויקט בעת פרסום הגרסה.
